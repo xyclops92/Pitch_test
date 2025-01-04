@@ -938,8 +938,7 @@ map.addControl(bottomAttribution);
 
 var attributionList = document.createElement('li');
 attributionList.innerHTML = 
-	<a href="https://qgis.org/">QGIS</a>	
-`;
+	<a href="https://qgis.org/">QGIS</a>;
 bottomAttribution.element.appendChild(attributionList);
 
 
