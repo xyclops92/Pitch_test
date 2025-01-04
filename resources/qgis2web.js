@@ -937,9 +937,7 @@ var bottomAttribution = new ol.control.Attribution({
 map.addControl(bottomAttribution);
 
 var attributionList = document.createElement('li');
-attributionList.innerHTML = `
-	<a href="https://github.com/tomchadwin/qgis2web">qgis2web</a> &middot;
-	<a href="https://openlayers.org/">OpenLayers</a> &middot;
+attributionList.innerHTML = 
 	<a href="https://qgis.org/">QGIS</a>	
 `;
 bottomAttribution.element.appendChild(attributionList);
